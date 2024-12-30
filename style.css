@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: whitesmoke;
+ 
+}
+body{
+    background-color: #2c2c2c;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header{
+    
+    
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    
+}
+
+ul{
+    
+    display: flex;
+    list-style-type: none;
+   
+    
+}
+
+ul li a{
+    font-weight: bolder;
+    margin: 0 10px;
+    border: 1px solid gray;
+    padding: 0px 10px;
+    text-decoration: none;
+    border-radius: 55px;
+    color: rgb(253, 219, 83);
+}
+
+h2{
+    color: bisque;
+}
+.signup{
+    background-color: white;
+    color: rgb(74, 26, 26);
+}
+.signup:hover{
+    background-color: black;
+    color: yellow;
+}
+.heading{
+    color:gold;
+}
+main{
+    display: flex;
+    height: 80vh;
+   
+    align-items: center;
+    margin: 0PX 150PX;
+    overflow: auto;
+}
+.left{
+flex: 1;
+margin-right: 50px;
+text-transform: uppercase;
+
+}
+.mid{
+flex: 3;
+padding: 20px;
+color: antiquewhite;
+
+}
+.right{
+flex: 1;
+}
+.Saturn{
+width: 250px;
+height: 350px;
+height: auto;
+margin-left: 100px;
+}
+.About{
+    display: flex;
+}
+.A{
+    margin-right: 10px;
+   padding: 20px;
+   color: gold;
+    
+}
+.f2{
+    flex: 2;
+    text-shadow: -4px 0px 8px rgba(0,0,0,0.6);
+    text-transform: unset;
+}
+.m{
+    margin-right: 10px;
+   padding: 20px;
+   color: gold;
+  
+}
+.mystery{
+    display: flex;
+    
+}
+.footer{
+    text-align: center;
+}
